@@ -1,0 +1,138 @@
+# Complaint and Issue Tracker for Eskay Softech (Flutter)
+
+This repository contains the source code for the **Complaint and Issue Tracker**, a Flutter-based mobile application designed to streamline the management of complaints and issues for Eskay Softech. The app provides an intuitive interface for users to report issues, track their statuses, and facilitate efficient communication between employees and administrators.
+
+---
+
+## Features
+
+- **User-Friendly Interface**: A clean and responsive design optimized for mobile devices.
+- **Complaint Management**: Users can lodge complaints and view the status of their submissions.
+- **Issue Tracking**: Real-time updates on issue resolutions.
+- **Admin Dashboard**: Allows administrators to view, assign, and resolve complaints.
+- **Notifications**: Keeps users informed about the progress and resolution of their issues.
+- **Secure Authentication**: User login and registration to ensure data security.
+- **Flutter Framework**: Cross-platform compatibility for Android and iOS.
+
+---
+
+## Tech Stack
+
+- **Frontend**: Flutter (Dart)
+- **Backend**: Firebase (Firestore, Authentication)
+- **State Management**: Provider / Riverpod (update if using another library)
+- **Other Tools**: 
+  - Firebase Cloud Messaging (for push notifications)
+  - Firebase Storage (for media uploads, if applicable)
+
+---
+
+## Prerequisites
+
+- Flutter SDK installed ([Installation Guide](https://flutter.dev/docs/get-started/install))
+- Firebase account and project set up ([Firebase Setup Guide](https://firebase.google.com/docs/flutter/setup))
+- Android Studio / Visual Studio Code for development
+- Dart 2.12.0 or higher
+
+---
+
+## Getting Started
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/Sahilkurni/complaint-and-issue-tracker-for-eskay-softect-flutter.git
+   cd complaint-and-issue-tracker-for-eskay-softect-flutter
+   ```
+
+2. **Install dependencies**:
+   ```bash
+   flutter pub get
+   ```
+
+3. **Set up Firebase**:
+   - Add the `google-services.json` file (for Android) in the `android/app` directory.
+   - Add the `GoogleService-Info.plist` file (for iOS) in the `ios/Runner` directory.
+
+4. **Run the application**:
+   ```bash
+   flutter run
+   ```
+
+---
+
+## Folder Structure
+
+```
+lib/
+|-- screens/          # UI screens for the app
+|-- widgets/          # Reusable widgets
+|-- models/           # Data models
+|-- providers/        # State management logic
+|-- services/         # Firebase and other service integrations
+|-- utils/            # Utility functions and constants
+```
+
+---
+
+## Key Functionalities
+
+### User Module
+- **Register/Login**: Authenticate users securely.
+- **File Complaint**: Submit complaints with optional media attachments.
+- **View Status**: Track the progress of lodged complaints.
+
+### Admin Module
+- **Complaint Dashboard**: View all pending, in-progress, and resolved issues.
+- **Assign Tasks**: Delegate issues to relevant team members.
+- **Update Status**: Mark issues as resolved.
+
+---
+
+## Screenshots
+
+(Include screenshots of the app here to give a visual overview. Add links to images hosted online or in the repository.)
+
+---
+
+## Contributing
+
+Contributions are welcome! Follow these steps:
+
+1. Fork the repository.
+2. Create a feature branch:
+   ```bash
+   git checkout -b feature-name
+   ```
+3. Commit your changes:
+   ```bash
+   git commit -m "Add feature description"
+   ```
+4. Push to the branch:
+   ```bash
+   git push origin feature-name
+   ```
+5. Open a pull request.
+
+---
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---
+
+## Contact
+
+For any queries or suggestions, feel free to reach out:
+- **Author**: Sahil Kurni
+- **Email**: [your-email@example.com] (Replace with your email)
+- **LinkedIn**: [Your LinkedIn Profile] (Optional)
+
+---
+
+## Acknowledgments
+
+- Thanks to Eskay Softech for providing the opportunity to work on this project.
+- The Flutter and Firebase communities for their excellent documentation and support.
+
+---
